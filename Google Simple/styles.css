@@ -1,0 +1,127 @@
+
+
+body {
+  font-family: arial,sans-serif;
+  box-sizing: border-box;
+}
+
+nav {
+  text-align: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+nav * {
+  font-size: 13px;
+  display:inline-block;
+  padding: 5px;
+  vertical-align: middle;
+}
+nav *:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.loginButton {
+  font-size: 16px;
+  background-color: rgb(106, 111, 124);
+  padding: 10px 12px;
+  color: white;
+  border-radius: 50%;
+}
+.loginButton:hover {
+  text-decoration: none;
+}
+.menuButton {
+  margin: 15px;
+  background-image: url(https://i.imgur.com/2qdZFMy.jpg);
+  width: 7px;
+  height: 7px;
+  background-size: contain;
+}
+.main {
+  position: relative;
+}
+.logo {
+  margin-top: 155px;
+  text-align: center;
+}
+form {
+  margin-top: 20px;
+  text-align: center;
+}
+input {
+  width: 555px;
+  font-size: 16px;
+  margin-top: 5px;
+  padding: 12px 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 25px;
+  border-color: rgb(223, 223, 223);
+  text-decoration: none;
+  outline: none;
+}
+input:hover,
+input:focus {
+    box-shadow: 0px 0px 14px -8px rgba(0,0,0,0.41);
+}
+.buttons {
+  margin-top: 40px;
+  text-align: center;
+}
+.buttons li {
+  margin: 0 5px;
+  background-color: rgb(245, 245, 245);
+  color: grey;
+  font-size: 14px;
+  padding: 10px 15px;
+  display: inline;
+  border-radius: 8px;
+  border: 1px solid transparent;
+}
+.buttons li:hover {
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+}
+
+footer {
+  background-color: #f2f2f2;
+  width: 100%;
+  position: absolute;
+  bottom: 5px;
+  font-size: 13px;
+  color: rgb(88, 88, 88);
+}
+
+.footerBottom {
+  height: 40px;
+  border-top: 1px solid #e4e4e4;
+  padding: 0 20px 0 30px;
+}
+.footerTop {
+  height: 28px;
+  border-top: 1px solid #e4e4e4;
+  font-size: 15px;
+  padding: 12px 20px 4px 30px;;
+}
+.footerBottom li {
+  padding-top: 12px;
+  display: inline-block;
+  padding-right: 22px;
+  height: 40px;
+}
+.footerBottom li:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.footerBottom_left{
+  display: inline;
+}
+
+.footerBottom_right {
+  position: absolute;
+  display: inline;
+  right: 10px;
+}
